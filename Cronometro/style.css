@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('imagenes/pexels-photo-2832382.jpeg') no-repeat center center/cover;
+}
+
+.contenedor-principal{
+    width: 80vw;
+    max-width: 600px;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:RGB(216, 191, 216);
+    border-radius: 50px;
+        
+}
+
+.contenedor-botones{
+    padding: 20px;
+}
+
+#cronometro{
+    width: 100%;
+    font-size: 80px;
+    font-weight: bold;
+    user-select: none;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    color: rgb(72, 61, 139);    
+}
+
+.boton{
+    width: 90px;
+    height: 90px;
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#boton-inicio-pausa.iniciar,
+#boton-inicio-pausa.iniciar i{
+    background-color:rgb(128, 0, 128) ;
+}
+
+#boton-inicio-pausa.pausar,
+#boton-inicio-pausa.pausar i{
+    background-color:RGB(75, 0, 130) ;
+}
+
+#boton-reiniciar{
+    background-color:RGB(75, 0, 130) ;
+}
+
